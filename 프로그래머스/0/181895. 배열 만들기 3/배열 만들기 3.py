@@ -1,7 +1,7 @@
 def solution(arr, intervals):
     answer = []
 
-    for i in intervals:
-        answer += arr[i[0]:i[1]+1]
+    for i, j in intervals:
+        answer += arr[i:j+1]
     
     return answer
