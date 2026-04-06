@@ -5,6 +5,5 @@ def solution(board, k):
         if k-i+1 < 0:
             break
         answer += sum(key[:k-i+1])
-        print(key[:k-i+1])
     
     return answer
