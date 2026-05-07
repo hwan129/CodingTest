@@ -8,10 +8,9 @@ def solution(num_list):
                 break
             if i % 2:
                 i -= 1
-                continue
-                
-            i /= 2
-            count += 1
+            else:
+                i /= 2
+                count += 1
             
         answer += count
     return answer
