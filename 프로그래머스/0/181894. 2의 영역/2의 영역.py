@@ -1,5 +1,4 @@
 def solution(arr):
-    answer = []
     a = []
     
     if 2 not in arr:
