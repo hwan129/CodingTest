@@ -6,7 +6,7 @@ def solution(arr):
         for i, k in enumerate(arr):
             if k >= 50 and k % 2 == 0:
                 arr[i] = int(k/2)
-            if k < 50 and k % 2 != 0:
+            elif k < 50 and k % 2 != 0:
                 arr[i] = int(k * 2 + 1)
         if old_arr == arr:
             return answer
